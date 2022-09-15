@@ -1,0 +1,45 @@
+----------------------------------------------------------------------
+|                 COMP 40 HOMEWORK 4: Arith                          |
+| Alex Jeon (yjeon02)                                                |
+| Abe Park  (ypark12)                                                |
+| April 14th, 2022                                                   |
+----------------------------------------------------------------------
+
+Acknowledges
+    - We got help from TA Alec.
+
+Implementation
+    - We think all part of our function implemented correctly.
+
+Briefly enumerates any significant departures from your design
+    - There is no significant departure from our original design
+
+Describes the architecture of your system. Identify the modules used, what 
+abstractions they implement, what secrets they know, and how they 
+relate to one another. Avoid narrative descriptions of the behavior of 
+particular modules.
+    - um module
+        - This module is where we handle um instruction with register value
+          and have function to run instruction or initiate and free values
+          that are used during UM program.
+    - memory_seg module
+        - This module is where we have a function to handle memory segments
+          that are used during the UM program and instrutions. In this module,
+          we have function to initiate and free all the memory segmens that
+          are used during UM program. 
+
+How long it takes your UM to execute 50 million instructions, and how you know
+    - 
+
+Mentions each UM unit test (from UMTESTS) by name, explaining what each one 
+tests and how
+    - 
+
+How many hours you have spent analyzing the assignment
+    - 7 h
+
+How many hours you have spent preparing your design
+    - 7 h
+
+How many hours you have spent solving the problems after your analysis
+    - 15 h
